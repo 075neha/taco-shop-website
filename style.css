@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+header {
+    background: #d35400;
+    color: white;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+h2 {
+    color: #d35400;
+    text-align: center;
+}
+
+/* About Section */
+#about img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+/* Menu Section */
+#menu select {
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #d35400;
+    color: white;
+}
+
+/* Contact Section */
+#contact {
+    background: #f8f8f8;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 15px;
+    background: #d35400;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background: #a04000;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #d35400;
+    color: white;
+}
